@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Dashboard</h1>
+        <div class="weather-container">
+            <div class="search-container">
+                <h2>Enter a City Name</h2>
+                <div>
+                    <input type="text" class="search-input" placeholder="E.g.,New York, London, Tokyo">
+                </div>
+                <div>
+                    <input type="button" class="searchBtn" value="Search">
+                </div>
+                <div class="bar"></div>
+                <div>
+                    <input type="button" class="currentLocBtn" value="Use Current Location">
+                </div>
+            </div>
+            <div class="weather">
+                <div class="current-weather">
+                    <div class="details">
+                        <h2>_____( ____ )</h2>
+                        <h4>Temperature: _&degC</h4>
+                        <h4>Wind: _M/S</h4>
+                        <h4>Humidity: _%</h4>
+                    </div>
+                    <div class="weather-image">
+                        <img src=" https://openweathermap.org/img/wn/10d@2x.png">
+                        <h4>light rain</h4>
+                    </div>
+                </div>
+                <div class="forecast-weather">
+                    <h2 class="title">5-Day Forecast</h2>
+                    <div class="weather-cards">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>   
+
+    </div>
+     
+    <script src="script.js defer"></script>
+</body>
+</html>
